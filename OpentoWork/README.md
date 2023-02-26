@@ -6,3 +6,6 @@ Framework: Flask
 - User Login
 - Signup or Validation
 - Update Password
+
+
+References: https://linuxize.com/post/how-to-install-flask-on-ubuntu-20-04/

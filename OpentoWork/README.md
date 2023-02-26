@@ -1,7 +1,8 @@
 Framework: Flask
 
-User Registration
-Password Reset
-User Login
-Signup or Validation
-Update Password
+### Rest APIS Code Contains:
+- User Registration
+- Password Reset
+- User Login
+- Signup or Validation
+- Update Password

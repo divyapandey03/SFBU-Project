@@ -9,3 +9,8 @@ Framework: Flask
 
 
 References: https://linuxize.com/post/how-to-install-flask-on-ubuntu-20-04/
+
+
+{
+  "token": "your_secret_token"
+}

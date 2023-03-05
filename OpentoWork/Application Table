@@ -23,3 +23,10 @@ VALUES
   ('Oracle', 'Technology company and database provider', '2023-04-02 23:59:59', '2023-04-07 23:59:59', '2023-04-11 14:30:00', '2:30 PM to 4:30 PM', 'submitted'),
   ('Cisco', 'Technology company and networking provider', '2023-04-05 23:59:59', '2023-04-10 23:59:59', '2023-04-14 09:30:00', '9:30 AM to 11:30 AM', 'submitted'),
   ('HP', 'Technology company and device manufacturer', '2023-04-08 23:59:59', '2023-04-13 23:59:59', '2023-04-17 13:30:00', '1:30 PM to 3:30 PM', 'submitted');
+
+
+
+
+UPDATE Application
+SET application_status = 'in-progress'
+WHERE company_name IN ('Apple', 'IBM');

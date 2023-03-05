@@ -1,0 +1,25 @@
+CREATE TABLE Application  (
+  company_name VARCHAR(255) ,
+  company_description varchar(255),
+  application_deadline TIMESTAMP,
+  technical_assessment_deadline TIMESTAMP,
+  interview_date TIMESTAMP,
+  interview_from_to VARCHAR(255),
+  application_status VARCHAR(255) 
+);
+
+
+
+
+INSERT INTO Application (company_name, company_description, application_deadline, technical_assessment_deadline, interview_date, interview_from_to, application_status)
+VALUES 
+  ('Google', 'Search engine and technology company', '2023-03-15 23:59:59', '2023-03-20 23:59:59', '2023-03-25 10:00:00', '10:00 AM to 12:00 PM', 'submitted'),
+  ('Microsoft', 'Technology company and software developer', '2023-03-18 23:59:59', '2023-03-23 23:59:59', '2023-03-27 13:00:00', '1:00 PM to 3:00 PM', 'submitted'),
+  ('Amazon', 'Online retailer and cloud services provider', '2023-03-20 23:59:59', '2023-03-25 23:59:59', '2023-03-29 09:00:00', '9:00 AM to 11:00 AM', 'submitted'),
+  ('Facebook', 'Social media and technology company', '2023-03-22 23:59:59', '2023-03-27 23:59:59', '2023-03-31 14:00:00', '2:00 PM to 4:00 PM', 'submitted'),
+  ('Apple', 'Technology company and device manufacturer', '2023-03-25 23:59:59', '2023-03-30 23:59:59', '2023-04-03 11:00:00', '11:00 AM to 1:00 PM', 'submitted'),
+  ('Intel', 'Technology company and processor manufacturer', '2023-03-28 23:59:59', '2023-04-02 23:59:59', '2023-04-06 15:00:00', '3:00 PM to 5:00 PM', 'submitted'),
+  ('IBM', 'Technology company and software provider', '2023-03-30 23:59:59', '2023-04-04 23:59:59', '2023-04-08 10:30:00', '10:30 AM to 12:30 PM', 'submitted'),
+  ('Oracle', 'Technology company and database provider', '2023-04-02 23:59:59', '2023-04-07 23:59:59', '2023-04-11 14:30:00', '2:30 PM to 4:30 PM', 'submitted'),
+  ('Cisco', 'Technology company and networking provider', '2023-04-05 23:59:59', '2023-04-10 23:59:59', '2023-04-14 09:30:00', '9:30 AM to 11:30 AM', 'submitted'),
+  ('HP', 'Technology company and device manufacturer', '2023-04-08 23:59:59', '2023-04-13 23:59:59', '2023-04-17 13:30:00', '1:30 PM to 3:30 PM', 'submitted');
